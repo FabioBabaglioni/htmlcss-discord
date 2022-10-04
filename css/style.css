@@ -104,7 +104,7 @@ li{
 } 
 
 .grey{
-    background-color: lightgrey;
+    background-color: rgba(246,246,246,255);
     
 }
 
@@ -131,23 +131,35 @@ li{
 
 
 
-.ultima-colonna{
+.last-column{
     width: 100%;
+    text-align: center;
+    padding: 20px;
 
-    height: 500px;
-    background-color: red;
+}
+
+.sottotitolo-sezione{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.button-pink{
+    color: white;
+    background-color: rgba(114,137,218,255);
 }
 
 
 
 /* footer */
 
+
+
 footer{
-    background-color: lightslategray;
+    background-color: rgba(35,39,42,255)
     
 }
 
-.fine{
+.last{
     margin: auto;
     display: flex;
     justify-content: space-between;
