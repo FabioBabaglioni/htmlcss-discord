@@ -15,7 +15,7 @@ li{
 /* intestazione pagina */
 #intestazione{
     background-image: url(../img/jumbo.png);
-    min-height: 500px;
+    min-height: 584px;
     background-size: cover;
 }
 
@@ -150,11 +150,6 @@ footer{
     
 }
 
-.last{
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-}
 
 .titolo-pink{
     color: rgba(114,137,218,255);
@@ -209,4 +204,10 @@ footer{
 
 hr{
     margin-bottom: 20px;
+}
+
+.last{
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
 }
